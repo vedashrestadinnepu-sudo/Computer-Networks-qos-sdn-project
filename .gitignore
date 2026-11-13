@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+# scratch files written in the project folder by the latest run (saved runs live in results/)
+/results.csv
+/policy_log.csv
+/live_rx.csv
+/live.png
+/s1.log
+/s2.log
+/s3.log
+analysis/out/
+results_backup.zip
+.DS_Store

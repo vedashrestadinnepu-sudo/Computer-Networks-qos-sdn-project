@@ -1,0 +1,9 @@
+h1 python3 sender.py 1 10.0.0.4 40 1.0 > s1.log &
+h2 python3 sender.py 2 10.0.0.4 40 1.0 > s2.log &
+h3 python3 sender.py 3 10.0.0.4 40 1.0 > s3.log &
+sh sleep 10
+bottleneck 8
+sh sleep 10
+bottleneck 6
+sh sleep 10
+bottleneck 10
